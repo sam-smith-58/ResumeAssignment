@@ -1,0 +1,54 @@
+/* color: #eef7ff; blue-white
+/* color: #CAE5FF; beau blue */
+/* color: #4472CA; han blue*/
+/* color: #25283D; space cadet: dark blue-gray*/
+/* color: #191716: eerie black */
+
+/* Global styles
+----------------------- */
+body {
+    color: #191716;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img {
+    width: 300px;
+}
+a {
+    color: #eef7ff;
+}
+a:hover {
+    text-decoration: none;
+}
+/* Profile
+----------------------- */
+header {
+    background-color: #25283D;
+    color: #eef7ff;
+}
+
+
+/* Projects
+----------------------- */
+.projects {
+    background-color: #CAE5FF;
+}
+
+
+/* Work Experience
+----------------------- */
+.work-experience {
+    background-color: #eef7ff;
+}
+
+
+/* Education
+----------------------- */
+
+
+
+/* Contact Info
+----------------------- */
+footer {
+    background-color: #191716;
+    color: #CAE5FF;
+}
