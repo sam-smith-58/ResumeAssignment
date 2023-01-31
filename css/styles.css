@@ -4,11 +4,27 @@
 /* color: #25283D; space cadet: dark blue-gray*/
 /* color: #191716: eerie black */
 
+/* fonts-------------------- */
+/* font-family: 'Pacifico', cursive;
+font-family: 'Raleway', sans-serif; */
+
+
 /* Global styles
 ----------------------- */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
     color: #191716;
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family:'Raleway', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
 }
 img {
     width: 300px;
@@ -19,6 +35,24 @@ a {
 a:hover {
     text-decoration: none;
 }
+h1 {
+    font-size: 100px;
+    text-shadow: 5px 5px 5px #4472CA;
+}
+h2 {
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+h1, h2 {
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    margin: 0;
+}
+.content-wrap {
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
 /* Profile
 ----------------------- */
 header {
@@ -26,14 +60,23 @@ header {
     color: #eef7ff;
 }
 
-
 /* Projects
 ----------------------- */
 .projects {
     background-color: #CAE5FF;
 }
-
-
+.project-item {
+    overflow: hidden;
+    border-bottom: 1px dashed #25283D;
+    padding: 25px 0;
+}
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+.project-item h3 {
+    margin-top: 0;
+}
 /* Work Experience
 ----------------------- */
 .work-experience {
@@ -49,6 +92,6 @@ header {
 /* Contact Info
 ----------------------- */
 footer {
-    background-color: #191716;
-    color: #CAE5FF;
+    background-color: #25283D;
+    color: #eef7ff;
 }
