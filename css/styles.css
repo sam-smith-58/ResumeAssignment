@@ -48,6 +48,7 @@ h1, h2 {
     font-weight: 400;
     margin: 0;
 }
+
 .content-wrap {
     width: 800px;
     margin: 0 auto;
@@ -60,11 +61,65 @@ header {
     color: #eef7ff;
 }
 
+/* Navigation Bar
+-------------------------- */
+nav {
+    background-color: #4472CA;
+}
+
+/* location of nav bar and gets rid of bullets */
+nav ul {
+    text-align: left;
+    list-style: none;
+}
+
+/* how the nav items appear */
+nav ul li {
+    display: inline-block;
+    font-weight: bolder;
+    position: relative;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+/* how nav items look when hovered over */
+nav ul li:hover {
+    background-color: #eef7ff;
+}
+
+/* submenu display settings */
+nav ul li ul {
+    padding: 0;
+    position: absolute;
+    top: 48px;
+    left: -10000px;
+    width: 150px;
+}
+
+/* submenu items */
+nav ul li ul li {
+    background-color: #CAE5FF;
+    display: block;
+}
+
+/* submenu items when they're hovered over */
+nav ul li ul li:hover {
+    background-color: plum;
+}
+
+/* submenu when hovered */
+nav li:hover ul {
+    display: block;
+    left: 0px;
+}
+
 /* Projects
 ----------------------- */
 .projects {
     background-color: #CAE5FF;
 }
+
+
 .project-item {
     overflow: hidden;
     border-bottom: 1px dashed #25283D;
@@ -77,12 +132,12 @@ header {
 .project-item h3 {
     margin-top: 0;
 }
+
 /* Work Experience
 ----------------------- */
 .work-experience {
     background-color: #eef7ff;
 }
-
 
 /* Education
 ----------------------- */
