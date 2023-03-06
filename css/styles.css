@@ -54,14 +54,29 @@ h1, h2 {
     margin: 0 auto;
     padding: 60px 0;
 }
+h3 {
+    margin-bottom: 0;
+}
+
+
+.item-details h3 + p {
+    font-style: italic;
+}
+
+.item-details h3 ~ p {
+    margin: 0;
+}
 /* Profile
 ----------------------- */
 header {
     background-color: #25283D;
     color: #eef7ff;
-    text-align: center;
+    text-align: left;
 }
 
+header p {
+    text-align: justify;
+}
 /* Navigation Bar
 -------------------------- */
 nav {
@@ -155,14 +170,14 @@ nav li:hover ul {
 footer {
     background-color: #25283D;
     color: #eef7ff;
-    text-align: center;
+    text-align: left;
 }
 
 .contact-list {
     list-style-type: none;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
 .contact-list a {
