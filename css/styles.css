@@ -59,6 +59,7 @@ h1, h2 {
 header {
     background-color: #25283D;
     color: #eef7ff;
+    text-align: center;
 }
 
 /* Navigation Bar
@@ -139,6 +140,11 @@ nav li:hover ul {
     background-color: #eef7ff;
 }
 
+.job-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+}
 /* Education
 ----------------------- */
 
@@ -149,4 +155,17 @@ nav li:hover ul {
 footer {
     background-color: #25283D;
     color: #eef7ff;
+    text-align: center;
+}
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-list a {
+    padding: 15px;
+    display: inline-block;
 }
